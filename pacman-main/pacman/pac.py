@@ -77,7 +77,7 @@ def startLevelGame(level, screen, font):
             if  len(redfood_eaten)> 0:
                 cherrytime = 0
                 redfood_eaten.clear()
-                while cherrytime < 500:
+                while cherrytime < 1500:
                     redcherry = True
                     cherrytime += 1
         SCORE += len(food_eaten)# а до рахунку прибавляється 1
